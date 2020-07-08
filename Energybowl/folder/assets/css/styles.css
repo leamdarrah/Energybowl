@@ -1,0 +1,224 @@
+/*
+color scheme used
+----
+orange: #F69E19
+yellow: #FBD81A
+green: #8A8736
+light maroon: #932645
+dark maroon:  #68132A
+*/
+
+
+body{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/*--navbar--*/
+
+#logo-orange{
+    width: 10rem;
+}
+
+nav{
+    position: sticky;
+    background-color: #FFFFFF;
+    width: 100vw;
+    -webkit-box-shadow: 0px 0 10px  #A3A3A3;
+    -moz-box-shadow: 0px 0 10px  #A3A3A3;
+    box-shadow: 0px 0 10px  #A3A3A3;
+    font-size: 1rem;
+}
+.navbar-brand{
+    margin-left: 1rem;
+}
+
+.navbar-toggler{
+    /*outline of hamburger menu*/
+    margin-right: 1rem;
+    border-color: #68132A;
+    border-width: 2px;
+}
+
+.navbar-toggler-icon{
+    /*horizontal lines of hamburger menu*/
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(104,19,42, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+.navbar-nav .nav-item{
+    padding: 0 1.3rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #68132A;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #F69E19;
+}
+
+.shopping-icon{
+    color: #F69E19;
+    width: 1.5rem;
+    height: auto;
+    transition: 0.3s;
+}
+
+.shopping-icon:hover{
+    color: #68132A;
+}
+
+
+
+/*--home | main--*/
+.jumbotron{
+    background-color: #F69E19;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.home-row{
+   margin: 1rem;
+}
+
+#home-title{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: left;
+}
+
+#home-title-paragraph{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.image-main-page{
+    width: 100%;
+}
+
+
+
+.image-column{
+    padding: 0;
+}
+
+.order-button {
+    background-color: #8A8736;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+
+.order-button:hover{
+    background-color: #FFF;
+    color: #8A8736;
+    
+}
+
+
+/*home | company info*/
+
+.home-bottom-information{
+    text-align: center;
+    top: 50%;
+    
+
+}
+
+.home-bottom-information-title{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.home-images{
+    width: 200px;
+    height: auto;
+    margin: 5rem auto 0;
+    display: block;
+}
+
+.info-container{
+    margin: 3rem auto;
+}
+
+
+/*home | carousel*/
+
+#home-social-media-title{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.social-media-svg{
+    width: 5rem;
+    height: auto;
+    transition: 0.3s;
+    margin: 2rem  auto;
+}
+
+.social-media-svg:hover{
+    fill: #68132A;
+}
+
+
+.carousel{
+    margin:0 auto;
+}
+.carousel-item{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.carousel-inner .carousel-item img{
+    height: 400px;
+    width: auto;
+}
+
+
+/*menu*/
+.menu-img{
+    width: 100%;
+}
+
+.page-title{
+    text-align: center;
+    color: #F69E19;
+    font-weight: 800;
+    font-size: 5rem;
+    margin: 5rem 0;
+}
+
+.page-subtitle{
+    color: #F69E19;
+    font-weight: 800;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#menu-section{
+    padding: 0 3rem;
+}
+
+.menu-button{
+    text-align: center;
+    background-color: #68132A;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: #68132A;
+    height: 20vh;
+}
+
+.footer-text{
+    color: #FFFFFF;
+}

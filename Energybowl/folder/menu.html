@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Promoting good health through our delicious smoothie bowls, topped with whatever you want!"></head>
+        <title>Energybowl | Smoothie Bowls and Salads</title>
+        <link rel="icon" href="assets/images/favicon.ico" type="image/ico">
+        <!--Bootstrap requirements| CSS Stylesheet-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--External CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--Bootstrap Scripts-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo-orange.svg" alt="Logo for energybowl in orange and maroon colors" id="logo-orange">
+            </a> <!--this is the logo/brand name-->
+            
+            <!--display hamburger menu icon-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!--hamburger menu toggle start--> 
+            <div class="collapse navbar-collapse " id="navbarToggle">
+                <ul class="navbar-nav ml-auto"> <!--ml-auto = margin left auto-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Our Story</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <!--source of cart SVG: https://icons.getbootstrap.com/icons/cart3/-->
+                            <svg class="bi bi-cart3 shopping-icon" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <h1 class="page-title">OUR MENU</h1>
+
+      <!--featured bowls-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Featured Bowls</h3>
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/dragonfruit-smoothie-bowl.png" alt="Dragonfruit smoothie bowl with bananas, granola, and coconut flakes">
+                  <h5 class="card-title">Dragonfruit Bowl</h5>
+                  <p class="card-text">Our most favorite bowl! Dragonfruit based smoothie topped with granola, banana slices, and coconut flakes.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/fruit-mix-smoothie-bowl.png" alt="Smoothie bowl filled to the brim with apples, pears, berries, and bananas">
+                  <h5 class="card-title">Fruit Mix Bowl</h5>
+                  <p class="card-text">Yogurt based smoothie topped with apple, mango, banana, and an assortment of berries.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img class="card-img-top menu-img" src="assets/images/menu/kiwi-matcha-smoothie-bowl.png" alt="Kiwi smoothie bowl topped with matcha powder and kiwi">
+                    <h5 class="card-title">Kiwi Matcha Bowl</h5>
+                    <p class="card-text">Kiwi based smoothie topped with kiwi sliced and matcha powder.</p>
+                    <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+      <!--simple bowls-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Simple Bowls</h3>
+          <div class="row">
+     
+            <div class="col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/strawberry-smoothie-bowl.png" alt="Dragonfruit smoothie bowl with bananas, granola, and coconut flakes">
+                  <h5 class="card-title">Strawberry Bowl</h5>
+                  <p class="card-text">Our most favorite bowl! Dragonfruit based smoothie topped with granola, banana slices, and coconut flakes.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/blueberry-smoothie-bowl.png" alt="Smoothie bowl filled to the brim with apples, pears, berries, and bananas">
+                  <h5 class="card-title">Blueberry Bowl</h5>
+                  <p class="card-text">Yogurt based smoothie topped with apple, mango, banana, and an assortment of berries.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      <!--add-ins-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Add-Ins</h3>
+          <div class="row">
+     
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/green-tea-extract.png" alt="Dragonfruit smoothie bowl with bananas, granola, and coconut flakes">
+                  <h5 class="card-title">Matcha Powder</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/almonds.png" alt="Smoothie bowl filled to the brim with apples, pears, berries, and bananas">
+                  <h5 class="card-title">Almonds</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/blueberries.png" alt="Smoothie bowl filled to the brim with apples, pears, berries, and bananas">
+                  <h5 class="card-title">Blueberries</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/strawberries.png" alt="Smoothie bowl filled to the brim with apples, pears, berries, and bananas">
+                  <h5 class="card-title">Sliced Strawberries</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      <!--salads-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Salads</h3>
+          <div class="row">
+     
+            <div class="col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/seasoned-tofu-salad.png" alt="Dragonfruit smoothie bowl with bananas, granola, and coconut flakes">
+                  <h5 class="card-title">Seasoned Tofu Spinach Salad</h5>
+                  <p class="card-text">A lettuce based salad topped with teriyaki flavored tofu.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/strawberry-sprout-salad.png" alt="Salad with sprouts, cucumber, strawberries, and spinach">
+                  <h5 class="card-title">Strawberry Sprout Salad</h5>
+                  <p class="card-text">A unique, yet tasty, combination of strawberries and bean sprouts.</p>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--sides-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Sides</h3>
+          <div class="row">
+     
+            <div class="col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/black-bean-chips.png" alt="black bean chips spilling out of the bag ">
+                  <h5 class="card-title">Black Bean Chips</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/parfait.png" alt="image of a partfait topped with raspberries">
+                  <h5 class="card-title">Raspberry Parfait</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top menu-img" src="assets/images/menu/banana.png" alt="image of a peeled banana">
+                <h5 class="card-title">Banana</h5>
+                <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--drinks-->
+        <section id="menu-section">
+          <h3 class="page-subtitle">Drinks</h3>
+          <div class="row">
+     
+            <div class="col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/Kombucha.png" alt="jar of kombucha with a cheese cloth lid">
+                  <h5 class="card-title">Kombucha</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-sm-6 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <img class="card-img-top menu-img" src="assets/images/menu/lemonade.png" alt="a glass of lemonade garnished with mint">
+                  <h5 class="card-title">Mint Lemonade</h5>
+                  <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top menu-img" src="assets/images/menu/boxed-water.png" alt="image of a peeled banana">
+                <h5 class="card-title">Boxed Water</h5>
+                <a href="#" class="btn btn-primary menu-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <footer class="footer">
+          <div class="container">
+              <div class="row">
+                   <div class="col col-3 footer-text">
+                       [insert link title]
+                   </div>
+                   
+                   <div class="col col-3 footer-text">
+                       [insert link title]
+                   </div>
+
+                   <div class="col col-3 footer-text">
+                       [insert link title]
+                   </div>
+
+                   <div class="col col-3 footer-text">
+                       [insert link title]
+                   </div>
+              </div>
+          </div>
+      </footer>
+    </body>
+</html>
